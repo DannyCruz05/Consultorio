@@ -1126,11 +1126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaPresentacion\\CapaPresentacion.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaPresentacion\\CapaPresentacion.csproj",
       "projectName": "CapaPresentacion",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaPresentacion\\CapaPresentacion.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaPresentacion\\CapaPresentacion.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaPresentacion\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaPresentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1147,8 +1147,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\CapaNegocios.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\CapaNegocios.csproj"
+            "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\CapaNegocios.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\CapaNegocios.csproj"
             }
           }
         }

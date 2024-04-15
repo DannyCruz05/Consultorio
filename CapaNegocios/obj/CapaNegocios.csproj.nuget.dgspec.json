@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\CapaNegocios.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\CapaNegocios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj": {
+    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\CapaNegocios.csproj": {
+    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\CapaNegocios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\CapaNegocios.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\CapaNegocios.csproj",
         "projectName": "CapaNegocios",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\CapaNegocios.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\CapaNegocios.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaNegocios\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaNegocios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj"
+              "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj": {
+    "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\ProgramacionRAD\\CapaDatos\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Escritorio\\UCENM\\Consultorio\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

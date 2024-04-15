@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace CapaDatos.Modelos
 {
     [Table("Citas")]
-    public class CitasModel
+    public class CitasModel : EntidadBase
     {
 
         [Key]

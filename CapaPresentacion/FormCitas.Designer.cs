@@ -31,13 +31,7 @@
             dtpPaciente = new DateTimePicker();
             cbFiltro = new CheckBox();
             button1 = new Button();
-            cbFiltroClasificacion = new ComboBox();
-            label7 = new Label();
-            cbGrupo = new ComboBox();
-            label6 = new Label();
             btnGuardar = new Button();
-            cbClasificacion = new ComboBox();
-            label5 = new Label();
             txtMedicoId = new TextBox();
             label1 = new Label();
             txtPacienteId = new TextBox();
@@ -46,22 +40,22 @@
             txtCitaId = new TextBox();
             lblEstado = new Label();
             label2 = new Label();
-            dgPaciente = new DataGridView();
+            dgCitas = new DataGridView();
             label3 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dgPaciente).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgCitas).BeginInit();
             SuspendLayout();
             // 
             // dtpPaciente
             // 
-            dtpPaciente.Location = new Point(145, 95);
+            dtpPaciente.Location = new Point(145, 148);
             dtpPaciente.Name = "dtpPaciente";
-            dtpPaciente.Size = new Size(184, 23);
+            dtpPaciente.Size = new Size(259, 23);
             dtpPaciente.TabIndex = 95;
             // 
             // cbFiltro
             // 
             cbFiltro.AutoSize = true;
-            cbFiltro.Location = new Point(346, 260);
+            cbFiltro.Location = new Point(344, 203);
             cbFiltro.Name = "cbFiltro";
             cbFiltro.Size = new Size(89, 19);
             cbFiltro.TabIndex = 94;
@@ -70,78 +64,27 @@
             // 
             // button1
             // 
-            button1.Location = new Point(456, 258);
+            button1.Location = new Point(455, 199);
             button1.Name = "button1";
             button1.Size = new Size(66, 22);
             button1.TabIndex = 93;
             button1.Text = "Filtrar";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // cbFiltroClasificacion
-            // 
-            cbFiltroClasificacion.FormattingEnabled = true;
-            cbFiltroClasificacion.Location = new Point(145, 257);
-            cbFiltroClasificacion.Name = "cbFiltroClasificacion";
-            cbFiltroClasificacion.Size = new Size(196, 23);
-            cbFiltroClasificacion.TabIndex = 92;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(24, 260);
-            label7.Name = "label7";
-            label7.Size = new Size(110, 15);
-            label7.TabIndex = 91;
-            label7.Text = "Filtrar por categoria";
-            // 
-            // cbGrupo
-            // 
-            cbGrupo.FormattingEnabled = true;
-            cbGrupo.Location = new Point(147, 183);
-            cbGrupo.Name = "cbGrupo";
-            cbGrupo.Size = new Size(196, 23);
-            cbGrupo.TabIndex = 90;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(28, 189);
-            label6.Name = "label6";
-            label6.Size = new Size(41, 15);
-            label6.TabIndex = 89;
-            label6.Text = "Grupo";
+            button1.Click += button1_Click_1;
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(553, 233);
+            btnGuardar.Location = new Point(550, 174);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(112, 47);
             btnGuardar.TabIndex = 88;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
-            // 
-            // cbClasificacion
-            // 
-            cbClasificacion.FormattingEnabled = true;
-            cbClasificacion.Location = new Point(147, 149);
-            cbClasificacion.Name = "cbClasificacion";
-            cbClasificacion.Size = new Size(196, 23);
-            cbClasificacion.TabIndex = 87;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(28, 154);
-            label5.Name = "label5";
-            label5.Size = new Size(76, 15);
-            label5.TabIndex = 86;
-            label5.Text = "Clasificacion";
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // txtMedicoId
             // 
-            txtMedicoId.Location = new Point(492, 48);
+            txtMedicoId.Location = new Point(145, 105);
             txtMedicoId.Name = "txtMedicoId";
             txtMedicoId.Size = new Size(184, 23);
             txtMedicoId.TabIndex = 85;
@@ -150,7 +93,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(394, 50);
+            label1.Location = new Point(26, 107);
             label1.Name = "label1";
             label1.Size = new Size(58, 15);
             label1.TabIndex = 84;
@@ -158,7 +101,7 @@
             // 
             // txtPacienteId
             // 
-            txtPacienteId.Location = new Point(145, 48);
+            txtPacienteId.Location = new Point(145, 60);
             txtPacienteId.Name = "txtPacienteId";
             txtPacienteId.Size = new Size(184, 23);
             txtPacienteId.TabIndex = 83;
@@ -167,7 +110,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(26, 52);
+            label4.Location = new Point(26, 64);
             label4.Name = "label4";
             label4.Size = new Size(68, 15);
             label4.TabIndex = 82;
@@ -176,7 +119,7 @@
             // cbEstado
             // 
             cbEstado.AutoSize = true;
-            cbEstado.Location = new Point(147, 219);
+            cbEstado.Location = new Point(147, 189);
             cbEstado.Name = "cbEstado";
             cbEstado.Size = new Size(60, 19);
             cbEstado.TabIndex = 81;
@@ -186,7 +129,7 @@
             // txtCitaId
             // 
             txtCitaId.BackColor = SystemColors.ControlLight;
-            txtCitaId.Location = new Point(145, 10);
+            txtCitaId.Location = new Point(145, 22);
             txtCitaId.Name = "txtCitaId";
             txtCitaId.ReadOnly = true;
             txtCitaId.Size = new Size(88, 23);
@@ -196,7 +139,7 @@
             // 
             lblEstado.AutoSize = true;
             lblEstado.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            lblEstado.Location = new Point(29, 222);
+            lblEstado.Location = new Point(29, 192);
             lblEstado.Name = "lblEstado";
             lblEstado.Size = new Size(45, 15);
             lblEstado.TabIndex = 79;
@@ -206,27 +149,27 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(26, 10);
+            label2.Location = new Point(26, 22);
             label2.Name = "label2";
             label2.Size = new Size(41, 15);
             label2.TabIndex = 78;
             label2.Text = "Cita Id";
             // 
-            // dgPaciente
+            // dgCitas
             // 
-            dgPaciente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgPaciente.Location = new Point(26, 286);
-            dgPaciente.Name = "dgPaciente";
-            dgPaciente.RowHeadersWidth = 51;
-            dgPaciente.RowTemplate.Height = 24;
-            dgPaciente.Size = new Size(839, 185);
-            dgPaciente.TabIndex = 77;
+            dgCitas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgCitas.Location = new Point(26, 236);
+            dgCitas.Name = "dgCitas";
+            dgCitas.RowHeadersWidth = 51;
+            dgCitas.RowTemplate.Height = 24;
+            dgCitas.Size = new Size(839, 208);
+            dgCitas.TabIndex = 77;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(26, 100);
+            label3.Location = new Point(26, 153);
             label3.Name = "label3";
             label3.Size = new Size(65, 15);
             label3.TabIndex = 96;
@@ -241,13 +184,7 @@
             Controls.Add(dtpPaciente);
             Controls.Add(cbFiltro);
             Controls.Add(button1);
-            Controls.Add(cbFiltroClasificacion);
-            Controls.Add(label7);
-            Controls.Add(cbGrupo);
-            Controls.Add(label6);
             Controls.Add(btnGuardar);
-            Controls.Add(cbClasificacion);
-            Controls.Add(label5);
             Controls.Add(txtMedicoId);
             Controls.Add(label1);
             Controls.Add(txtPacienteId);
@@ -256,10 +193,11 @@
             Controls.Add(txtCitaId);
             Controls.Add(lblEstado);
             Controls.Add(label2);
-            Controls.Add(dgPaciente);
+            Controls.Add(dgCitas);
             Name = "FormCitas";
             Text = "FormCitas";
-            ((System.ComponentModel.ISupportInitialize)dgPaciente).EndInit();
+            Load += FormCitas_Load;
+            ((System.ComponentModel.ISupportInitialize)dgCitas).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -269,13 +207,7 @@
         private DateTimePicker dtpPaciente;
         private CheckBox cbFiltro;
         private Button button1;
-        private ComboBox cbFiltroClasificacion;
-        private Label label7;
-        private ComboBox cbGrupo;
-        private Label label6;
         private Button btnGuardar;
-        private ComboBox cbClasificacion;
-        private Label label5;
         private TextBox txtMedicoId;
         private Label label1;
         private TextBox txtPacienteId;
@@ -284,7 +216,7 @@
         private TextBox txtCitaId;
         private Label lblEstado;
         private Label label2;
-        private DataGridView dgPaciente;
+        private DataGridView dgCitas;
         private Label label3;
     }
 }
